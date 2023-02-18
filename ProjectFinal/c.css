@@ -1,0 +1,63 @@
+* {
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    color: black;
+}
+
+.padd {
+    color: black;
+    margin-right: 200px;
+    margin-left: 100px;
+}
+
+.abc {
+    padding-top: 30px;
+    padding-bottom: 30px;
+}
+
+#a {
+    width: 900px;
+    height: 300px;
+    margin-bottom: 30px;
+    border: 2px solid black;
+    border-radius: 10px;
+}
+
+#b {
+    font-size: 22px;
+}
+
+th {
+    background-color: #907FA4;
+}
+
+tr:nth-child(even) {
+    background-color: #F9F3DF;
+}
+
+.sidebar {
+    height: 100%;
+    width: 100%;
+    margin-top: 60px;
+    position: fixed;
+    background-image: linear-gradient(to right, rgb(79, 78, 78), white);
+    top: 0;
+    bottom: 0;
+    left: 0;
+    padding: 100px;
+}
+
+/* shadow effect */
+
+.shadow1 {
+    margin: 40px;
+    background-color: rgb(4, 4, 4);
+    box-shadow: 2px 3px 3px black;
+}
+
+.shadow1 .content {
+    position: relative;
+    /* This protects the inner element from being blurred */
+    margin-left: 90px;
+    margin-right: 90px;
+    background-color: #E4FBFF;
+}

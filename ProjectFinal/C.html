@@ -1,0 +1,166 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>C Programming</title>
+
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css" rel="stylesheet"
+        integrity="sha384-EVSTQN3/azprG1Anm3QDgpJLIm9Nao0Yz1ztcQTwFspd3yD65VohhpuuCOmLASjC" crossorigin="anonymous">
+    <link rel="stylesheet" href="C.css">
+    <link rel="stylesheet" href="style.css">
+</head>
+
+<body style="background-color:white;">
+    <nav class="navbar sticky-top navbar-expand-lg navbar-dark bg-dark">
+        <div class="container-fluid">
+            <a href="index.html" class="y">
+                <img class="logo" border="0" alt="iLearn logo" src="logo.jpeg" width="40" height="40">
+            </a>
+            <a class="navbar-brand" href="index.html">iLearn</a>
+            <button class="navbar-toggler" type="button" data-bs-toggle="collapse"
+                data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false"
+                aria-label="Toggle navigation">
+                <span class="navbar-toggler-icon"></span>
+            </button>
+            <div class="collapse navbar-collapse" id="navbarSupportedContent">
+                <ul class="navbar-nav me-auto mb-2 mb-lg-0">
+                    <li class="nav-item">
+                        <a class="nav-link active" aria-current="page" href="index.html">Home</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="about.html" target="_blank">About</a>
+                    </li>
+                    <li class="nav-item dropdown">
+                        <a class="nav-link dropdown-toggle" href="#" id="navbarDropdown" role="button"
+                            data-bs-toggle="dropdown" aria-expanded="false">
+                            Tutorials
+                        </a>
+                        <ul class="dropdown-menu" aria-labelledby="navbarDropdown">
+                            <li><a class="dropdown-item" href="Python.html" target="_blank">Python</a></li>
+                            <li><a class="dropdown-item" href="C.html" target="_blank">C Programming</a></li>
+                            <li><a class="dropdown-item" href="java.html" target="_blank">Java</a></li>
+                            <li><a class="dropdown-item" href="C++.html" target="_blank">C++ Programming</a></li>
+                            <li><a class="dropdown-item" href="#" target="_blank">JavaScript</a></li>
+                            <li><a class="dropdown-item" href="#" target="_blank">SQL Query</a></li>
+                            <li><a class="dropdown-item" href="#" target="_blank">Data Structures</a></li>
+                            <li><a class="dropdown-item" href="#" target="_blank">PHP</a></li>
+
+                        </ul>
+                    <li class="nav-item">
+                        <a class="nav-link" href="contact.html" target="_blank">Contact Us</a>
+                    </li>
+
+                </ul>
+                <form class="d-flex">
+                    <input class="form-control me-2" type="search" placeholder="Search" aria-label="Search">
+                    <button class="btn btn-outline-success" type="submit">Search</button>
+                </form>
+            </div>
+        </div>
+    </nav>
+    <div class="sidebar">
+
+    </div>
+    <div class="shadow1">
+        <div class="content">
+            <div class="padd">
+                <h1 class="abc">C Programming Language</h1>
+                <h2>Introduction:</h2>
+                <p id="b">C is a procedural programming language. It was initially developed by Dennis Ritchie as a
+                    system
+                    programming language to write operating system. The main features of C language include low-level
+                    access to
+                    memory, simple set of keywords, and clean style, these features make C language suitable for system
+                    programming like operating system or compiler development.</p>
+                <img id="a" src="c.png">
+                <strong>
+                    <p id="b">Data types in C:</p>
+                </strong>
+                <ol id="b">
+                    <li>char: The most basic data type in C. It stores a single character and requires a single byte of
+                        memory
+                        in almost all compilers.</li>
+                    <li>int: As the name suggests, an int variable is used to store an integer.</li>
+                    <li>float: It is used to store decimal numbers (numbers with floating point value) with single
+                        precision.
+                    </li>
+                    <li>double: It is used to store decimal numbers (numbers with floating point value) with double
+                        precision.
+                    </li>
+                </ol><br>
+                <strong>
+                    <p id="b">Type Conversion in C:</p>
+                </strong>
+                <p id="b">->Done by the compiler on its own, without any external trigger from the user.<br>->Generally
+                    takes
+                    place when in an expression more than one data type is present. In such condition type conversion
+                    (type
+                    promotion) takes place to avoid loss of data.<br>->All the data types of the variables are upgraded
+                    to the
+                    data type of the variable with largest data type.<br>->It is possible for implicit conversions to
+                    lose
+                    information, signs can be lost (when signed is implicitly converted to unsigned), and overflow can
+                    occur
+                    (when long long is implicitly converted to float).</p>
+                <strong>
+                    <p id="b">Operators in python:</p>
+                </strong>
+                <table id="a" border="1" cellspacing='0' cellpadding='5' align="center" style="font-size: 25px;">
+                    <tr>
+                        <th>Category</th>
+                        <th>Operator</td>
+                        <th>Associativity</td>
+                    </tr>
+                    <tr>
+                        <td>Postfix</td>
+                        <td>() [] -> . ++ - -</td>
+                        <td>Left to right</td>
+
+
+                    </tr>
+                    <tr>
+                        <td>Unary</td>
+                        <td>+ - ! ~ ++ - - (type)* & sizeof</td>
+                        <td>Right to left</td>
+                    </tr>
+                    <tr>
+                        <td>Multiplicative</td>
+                        <td>* / %</td>
+                        <td>Left to right</td>
+                    </tr>
+                    <tr>
+                        <td>Additive</td>
+                        <td>+ -</td>
+                        <td>Left to right</td>
+                    </tr>
+                    <tr>
+                        <td>//</td>
+                        <td>Division (floor): divides the first operand by the second</td>
+                        <td>x // y</td>
+                    </tr>
+                    <tr>
+                        <td>Shift</td>
+                        <td>
+                            <<>>
+                        </td>
+                        <td>Left to right</td>
+                    </tr>
+                    <tr>
+                        <td>Comma</td>
+                        <td>,</td>
+                        <td>Left to right</td>
+                    </tr>
+
+                </table>
+            </div>
+        </div>
+    </div>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/js/bootstrap.bundle.min.js"
+        integrity="sha384-MrcW6ZMFYlzcLA8Nl+NtUVF0sA7MsXsP1UyJoMp4YLEuNSfAP+JcXn/tWtIaxVXM"
+        crossorigin="anonymous"></script>
+</body>
+
+</html>

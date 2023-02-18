@@ -1,0 +1,121 @@
+.second {
+    background-color: #ffffff;
+}
+
+/* 
+.bg {
+    background-image: linear-gradient(to right, rgb(79, 78, 78), white);
+} */
+
+nav {
+    opacity: 1;
+}
+
+#abc {
+    display: block;
+    margin: auto;
+}
+
+.x {
+    text-align: center;
+}
+
+.y {
+    padding-right: 10px;
+    padding-bottom: 5px;
+}
+
+.logo {
+    border: 2px solid rgb(255, 255, 255);
+    border-radius: 30px;
+    margin: 0px 20px;
+}
+
+.card1 {
+
+    display: inline-block;
+    background-color: #ffffff;
+    /* border: 1px solid black; */
+    border-radius: 10px;
+    padding: 10px;
+    margin: 23px; /*43 px*/
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    box-shadow: 2px 3px 3px 2px rgb(220, 216, 216);
+}
+
+.card1:hover {
+    background-color: rgb(182, 182, 182);
+}
+
+div>image {
+    width: 157px;
+    height: 264px;
+}
+
+.btn btn-primary {
+    display: block;
+    text-align: center;
+}
+
+.about {
+    padding-top: 50px;
+    color: rgb(0, 0, 0);
+    text-align: center;
+}
+/* use */
+.padd {
+    color: rgb(0, 0, 0);
+    padding-top: 40px;
+    padding-right: 30px;
+    padding-left: 90px;
+}
+
+.my-4 {
+    width: 500px;
+    margin: auto;
+}
+
+.my-41 {
+
+    margin: auto;
+}
+
+.carousel-inner {
+    box-shadow: 3px 3px rgb(220, 216, 216);
+}
+
+#footer {
+    text-align: center;
+    padding: 2% 3%;
+    background-color: #2f3030;
+}
+
+#footer p {
+    color: honeydew;
+}
+
+.social-icon {
+    margin: 20px 10px;
+    color: honeydew;
+}
+
+.topics {
+    margin-top: 70px;
+    margin-left: 43px;
+}
+
+#img {
+    border: 2px solid rgb(255, 255, 255);
+    border-radius: 150px;
+}
+
+#p {
+    margin-top: 0;
+    padding-bottom: 44px;
+    margin-bottom: 0px;
+}
+
+.lead {
+    font-size: 20px;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
